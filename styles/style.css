@@ -24,6 +24,17 @@ nav ul li{
 }
     
   /* banner styles    */
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 160px 50px 160px ;
+    background-color: #C6E4D6;
+  }
+  .banner-content{
+    width: 620px;
+    height: 320;
+    margin: 117px 0px 117px 60px;
+  }
   .banner-title{
     color:rgba(14, 14, 14, 0.5);
     font-weight: 600;
@@ -45,4 +56,6 @@ nav ul li{
   .banner-pic{
     width: 475px;
     height: 400px;
+    margin: 80px 60px 50px 64px;
   }
+  
