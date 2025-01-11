@@ -1,3 +1,15 @@
+
+
+.open-sans-normal{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.body{
+  background-color: rgba(245, 245, 245, 1);
+}
 /* nav styles */
 .navigation{
     display: flex;
@@ -108,10 +120,11 @@ nav ul li{
     border: none;
     padding: 11px 20px;
   }
-
+   /* quote styles */
   .quote{
     background-image: url("../images/assets/quote-bg.png");
    image-rendering: auto ;
+   border: 10px;
     color: rgba(14, 14, 14, 0.8);
     font-size: 18;
     background-repeat: no-repeat;
@@ -119,7 +132,7 @@ nav ul li{
     width: 1238px;
     padding: 48px 24px 48px 24px;
     margin: 32px 175px 80px 0px;
-    background-color: #f3f3f3;
+    background-color: #e3e2e2;
     border-radius: 16px;
   }
 
@@ -157,22 +170,34 @@ nav ul li{
 }
 
   /* donation */
+  .donate-container{
+    
+    align-items: center;
+    margin: 80px 160px 80px 160px;
+  }
   .donation{
     display: flex;
     justify-content: space-between;
-    gap: 24px;
     margin: 32px 105px 32px 105px;
+  
   }
   .donation-box{
     font-size: 40;
     font-weight: bold;
-    width:80px ;
-    height: 40px;
     border-radius: 16px;
     padding: 40px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
   .db-2{
+    background-color: #C6E4D6;
+  }
+  .db-1:hover{
+    background-color: #C6E4D6;
+  }
+  .db-3:hover{
+   background-color: #C6E4D6;
+  }
+  .db:hover{
     background-color: #C6E4D6;
   }
   .donate{
@@ -185,4 +210,81 @@ nav ul li{
     color: rgba(14, 14, 14, 0.7);
     text-align: center;
   }
+  .amount{
+    width: 980px;
+    height: 64px;
+    text-align: center;
+    
+  }
+  .donate-btn{
+    background-color: #006A50;
+    color: white;
+    border-radius: 8px;
+    width:151px ;
+    height:56px ;
+  }
+  .button-p{
+    text-align: center;
+  }
+
   
+    
+
+  /* subscribe styles */
+  .subscribe{
+    text-align: center;
+    background-color: #C6E4D6;
+    }
+  .subscribe-box{
+    padding: 80px 265px 80px 265px;
+  }
+ 
+  .sub-email{
+    width: 600px;
+    height: 55px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 0px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+  }
+  .sub-btn{
+    background-color: #006A50;
+    color: white;
+    font-size: 18;
+    font-weight: 600;
+    height: 55px;
+
+    padding: 17px 34px 17px 34px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    margin-left: 0px;
+  }
+  .subscribe-title{
+    font-weight: bold;
+    font-size: 40;
+  }
+ .sub-description{
+      font-size: 16;
+      color: rgba(14, 14, 14, 0.7);
+ }
+.subscribe{
+  border-radius: 24px;
+}
+
+/* footer styles */
+.footer{
+  text-align: center;
+}
+.footer-title{
+  font-size: 32;
+  font-weight: bold;
+}
+.footer-icon{
+  justify-content: space-between;
+  width: 120px;
+  height: 24px; 
+  display: inline-flex;
+}
