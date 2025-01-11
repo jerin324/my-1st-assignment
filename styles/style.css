@@ -239,8 +239,8 @@ nav ul li{
   .subscribe{
     text-align: center;
     background-color: #C6E4D6;
-    margin-left: 265px;
-    margin-right: 265px;
+    /* margin-left: 265px;
+    margin-right: 265px; */
     }
   .subscribe-box{
     padding: 80px 265px 80px 265px;
