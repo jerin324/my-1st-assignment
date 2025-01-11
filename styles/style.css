@@ -217,8 +217,6 @@ nav ul li{
     height: 64px;
     text-align: center;
     border: 2px;
-    margin-right: 124px ;
-    margin-left: 124px;
     
   }
   .donate-btn{
@@ -239,8 +237,7 @@ nav ul li{
   .subscribe{
     text-align: center;
     background-color: #C6E4D6;
-    /* margin-left: 265px;
-    margin-right: 265px; */
+  
     }
   .subscribe-box{
     padding: 80px 265px 80px 265px;
