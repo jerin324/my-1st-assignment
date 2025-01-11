@@ -214,6 +214,7 @@ nav ul li{
     width: 980px;
     height: 64px;
     text-align: center;
+    border: 2px;
     
   }
   .donate-btn{
